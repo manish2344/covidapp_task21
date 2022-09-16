@@ -1,0 +1,61 @@
+header {
+    padding: 20px;
+    background-color: rgb(11, 105, 100);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    max-width: 100%;
+}
+
+.covid {
+    float: right;
+}
+
+.table {
+    background-color: rgb(52, 46, 46);
+    color: white;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+@media (max-width:800px) {
+    .table {
+        background-color: rgb(52, 46, 46);
+        color: white;
+        font-size: 10px;
+    }
+}
+
+@media (max-width:550px) {
+    .table {
+        background-color: rgb(52, 46, 46);
+        color: white;
+        font-size: 8px;
+    }
+    td,
+    th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 4px;
+    }
+}
+
+@media (max-width:470px) {
+    .table {
+        background-color: rgb(52, 46, 46);
+        color: white;
+        font-size: 5px;
+    }
+    td,
+    th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 2px;
+    }
+}
